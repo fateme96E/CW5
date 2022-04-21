@@ -30,9 +30,27 @@ input{
     width: 200px;
 
 }
+.signup-form-container{
+    float: left;
+    width: 200px;
+    padding: 30px;
+
+}
 .login-form-button{
     background-color:#35ea41;
     border-color: #35ea41;
+    color: white;
+    width: 170px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signup-form-button{
+    background-color:#ee3d3dd9;
+    border-color: #ee3d3dd9;
     color: white;
     width: 170px;
     height: 30px;
