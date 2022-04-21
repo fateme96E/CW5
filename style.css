@@ -15,6 +15,36 @@
     right: 25%;
     border-radius: 25px;
     box-shadow: 2px 3px 5px 5px rgba(0, 0, 0, 0.101);
+    
 }
+input{
+    background-color: rgba(235, 236, 237, 0.253);
+    border: 1px solid rgba(235, 236, 237, 0.253);
+    border-radius: 25px;
+    padding: 5px;
+    direction: rtl;
 
+}
+.signin-form-container{
+    float: right;
+    width: 200px;
+
+}
+.login-form-button{
+    background-color:#35ea41;
+    border-color: #35ea41;
+    color: white;
+    width: 170px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
