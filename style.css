@@ -5,7 +5,7 @@
 .wraper_body{
     width: 1000px;
     height: 700px;
-    background-image: url("/images/gradient_backgound.jpeg");
+    background-image: url(./images/gradient_backgound.jpeg);
     font-family: 'vazir-light-FD';
     background-repeat:no-repeat;
     background-size:cover;
@@ -16,8 +16,8 @@
     height: 350px;
     background-color: white;
     position: fixed;
-    bottom: 40%;
-    right: 650px;
+    bottom: 30%;
+    right: 500px;
     border-radius: 25px;
     box-shadow: 2px 3px 5px 5px rgba(0, 0, 0, 0.101);
     font-family: 'vazir-light-FD';
