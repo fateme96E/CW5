@@ -1,68 +1,121 @@
+@font-face {
+    font-family:'vazir-light-FD';
+    src: url(./fonts/Vazir-Light-FD.woff);
+} 
 .wraper_body{
     width: 1000px;
     height: 700px;
     background-image: url("/images/gradient_backgound.jpeg");
+    font-family: 'vazir-light-FD';
     background-repeat:no-repeat;
     background-size:cover;
     margin: auto;
 }
 .form_container{
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 350px;
     background-color: white;
     position: fixed;
     bottom: 40%;
-    right: 35%;
+    right: 650px;
     border-radius: 25px;
     box-shadow: 2px 3px 5px 5px rgba(0, 0, 0, 0.101);
+    font-family: 'vazir-light-FD';
     
 }
 input{
     background-color: rgba(235, 236, 237, 0.253);
     border: 1px solid rgba(235, 236, 237, 0.568);
+    width: 155px;
+    height: 25px;
     border-radius: 25px;
     padding: 5px;
     direction: rtl;
+    font-family: 'vazir-light-FD';
 
 }
 .signin-form-container{
     float: right;
     width: 200px;
-
+    padding-right: 40px;
+    padding-top: 20px;
 }
 .signup-form-container{
     float: left;
     width: 200px;
-    padding-left: 30px;
+    padding-left: 70px;
+    padding-top: 20px;
 }
 .login-form-button{
     background-color:#35ea41;
     border-color: #35ea41;
     color: white;
-    width: 170px;
-    height: 30px;
+    width: 165px;
+    height: 35px;
     border-radius: 25px;
     border: none;
     text-align: center;
     font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'vazir-light-FD';
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.101);
+
 }
 .signup-form-button{
     background-color:#ee3d3dd9;
     border-color: #ee3d3dd9;
     color: white;
-    width: 170px;
-    height: 30px;
+    width: 165px;
+    height: 35px;
     border-radius: 25px;
     border: none;
     text-align: center;
     font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'vazir-light-FD';
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.101);
+
+}
+
+.login-form-element{
+    height: 50px;
+    position: relative;
+}
+.login-form-element i{
+    position:absolute;
+    right: 40px;
+    bottom: 25px;
+    border: none;
+    display: inline;
+
+}
+.signup-form-element{
+    height: 50px;
+    position: relative;
+}
+.signup-form-element i{
+    position:absolute;
+    right: 40px;
+    bottom: 25px;
+    border: none;
+    display: inline;
+
+}
+
+.title{
+    padding-top: 2px;
+    padding-right: 30px;
 }
 
 p{
     text-align: center;
+    color: rgba(0, 0, 0, 0.605);
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'vazir-light-FD';
 }
+
+::placeholder{
+    color: #848786;
+    font-size: 15px;
+    padding-right: 35px;
+}
+
 

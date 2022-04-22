@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/f55d1cccf1.js" crossorigin="anonymous"></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -12,37 +14,50 @@
         <div class="form_container">
 
             <div class="signin-form-container">
-                <p><strong>ورود کاربری</strong></p><br>
-                <form>
+                <p class="title"><strong>ورود کاربری</strong></p><br>
+                <form action="#">
+
                     <div class="login-form-element">
-                        <label for="email" ></label>
-                        <input type="email" id="email" name="email" placeholder="ایمیل"><br><br> 
+                            <label for="email" ></label>
+                            <input type="email" id="email" name="email" placeholder="ایمیل">
+                            <i class="fa-solid fa-envelope"></i>
                     </div>
+
                     <div class="login-form-element">
                         <label for="password"></label>
-                        <input type="password" id="password" placeholder="کلمه عبور"/><br><br>
+                        <input type="password" id="password" placeholder="کلمه عبور"/>
+                        <i class="fa-solid fa-lock"></i>
                     </div>
+
                     <div class="login-form-element">
                         <button class="login-form-button" type="submit">ورود</button>
                     </div>
+                    
                 </form>
 
             </div>
             <div class="signup-form-container">
-                <p><strong>ثبت نام کاربر</strong></p><br>
+                <p class="title"><strong>ثبت نام کاربر</strong></p><br>
                 <form>
+
                     <div class="signup-form-element">
                         <label for="name" ></label>
-                        <input type="text" name="name" placeholder="نام"><br><br> 
+                        <input type="text" name="name" placeholder="نام">
+                        <i class="fa-solid fa-user"></i>
                     </div>
+
                     <div class="signup-form-element">
                         <label for="email" ></label>
-                        <input type="email" id="email" name="email" placeholder="ایمیل"><br><br> 
+                        <input type="email" id="email" name="email" placeholder="ایمیل">
+                        <i class="fa-solid fa-envelope"></i>
                     </div>
+
                     <div class="signup-form-element">
                         <label for="password"></label>
-                        <input type="password" id="password" placeholder="کلمه عبور"/><br><br>
+                        <input type="password" id="password" placeholder="کلمه عبور"/>
+                        <i class="fa-solid fa-lock"></i>
                     </div>
+
                     <div class="signup-form-element">
                         <button class="signup-form-button" type="submit">ثبت نام</button>
                     </div>
